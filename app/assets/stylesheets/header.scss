@@ -1,0 +1,31 @@
+header {
+  
+  background-image: url("./app/assets/images/thomas-habr-6NmnrAJPq7M-unsplash.jpg");
+  background-size: 100% 170%;
+}
+
+
+header h1,
+header h4,
+header a,
+.fas {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+header a {
+  font-size: 20px;
+  font-weight: 300px ;
+ }
+
+header a:hover,
+footer a:hover {
+  color: #fc3903;
+  font-weight: 900;
+}
+
+.fab {
+  font-size: 30px;
+  display: flex;
+  margin-right: 15px;
+}
