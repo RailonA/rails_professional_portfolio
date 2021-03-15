@@ -1,0 +1,55 @@
+footer {
+    background-color: #000000;
+    margin-top: 20px;
+    box-shadow: .2px .2px 20px #fc3903;
+    padding:20px;
+    }
+
+footer,
+footer a {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #fc3903;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+ 
+
+  .fab {
+    font-size: 15px;
+    display: flex;
+    margin-right: 5px;
+  }
+
+.footer-fab {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.footer-contact {
+    font-size: 15px;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer-fab {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .footer-contact {
+    font-size: 20px;
+    margin-left: 0;
+}
+
+    .fab {
+        font-size: 20px;
+        display: flex;
+        margin-right: 5px;
+    }
+}

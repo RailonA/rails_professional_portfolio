@@ -1,6 +1,5 @@
 header {
-  
-  background-image: url("./app/assets/images/thomas-habr-6NmnrAJPq7M-unsplash.jpg");
+  background-image: asset-url("thomas-habr-6NmnrAJPq7M-unsplash.jpg");
   background-size: 100% 170%;
 }
 
@@ -29,3 +28,5 @@ footer a:hover {
   display: flex;
   margin-right: 15px;
 }
+
+
