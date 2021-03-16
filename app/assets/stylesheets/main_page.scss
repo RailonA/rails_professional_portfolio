@@ -65,9 +65,16 @@ body {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: .2px .2px 20px white;
-  
   }
   
+  .main-1-section-1,
+  .main-3-section-1 {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: .2px .2px 20px white;
+  
+  }
+
   .main-1-section-1 h2,
   .main-2-section-2 h2,
   .main-3-section-1 h2 {
@@ -97,20 +104,19 @@ body {
 
   }
   
-  footer {
-  background-color: #000000;
-  margin-top: 20px;
-  box-shadow: .2px .2px 20px #fc3903;
-  }
-  
-  footer nav {
+ 
+
+  .page-row-white {
+    background-color: white;
+    box-shadow: .2px .2px 20px white;
     padding: 20px;
-  
+    margin: 0;
   }
-  
-  .footer-contact,
-  .footer-fab {
-   padding: 20px;
+
+  .page-row-grey {
+    background-color: #242424;
+    padding: 20px;
+    margin: 0;
   }
 
   @media screen and (min-width: 320px) {

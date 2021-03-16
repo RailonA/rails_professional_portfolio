@@ -47,9 +47,19 @@ footer a:hover {
     margin-left: 0;
 }
 
-    .fab {
-        font-size: 20px;
-        display: flex;
-        margin-right: 5px;
+    footer a:hover {
+    color: #fc3903;
+    font-size: 20px;
+    font-weight: 900;
     }
+
+    .fab {
+        font-size: 30px;
+        display: flex;
+        margin-right: 20px;
+    }
+
+    .fab-div {
+        margin-right: 10%;
+      }
 }
