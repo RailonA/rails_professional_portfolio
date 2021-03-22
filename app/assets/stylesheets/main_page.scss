@@ -1,5 +1,5 @@
 body {
-    background-color: #242424;
+    background-color: white;
   }
 
 
@@ -14,19 +14,7 @@ body {
   
   }
   
-  .main-1,
-  .main-3 {
-  background-color: #242424;
-  color: white;  
-  }
-  
-  
-  .main-2, 
-  .main-2 h2 {
-    background-color: white;
-    color: black;
-  }
-  
+
   .main-1-section-1,
   .main-1-section-2,
   .main-2-section-1,
@@ -43,6 +31,7 @@ body {
      width:400px;
      box-shadow: .2px .2px 20px #fc3903;
      background-size: 100% 100%;
+     margin: 30px;
   }
   
   .main-1-section-2:hover,
@@ -108,34 +97,73 @@ body {
 
   .page-row-white {
     background-color: white;
+    color: black;
     box-shadow: .2px .2px 20px white;
     padding: 20px;
-    margin: 0;
   }
 
   .page-row-grey {
     background-color: #242424;
+    color: white;  
     padding: 20px;
-    margin: 0;
   }
+
+  .page-row-white h2 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: black;
+  }
+
+  .page-row-grey h2{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: white;
+  }
+
+  .page-div-white {
+    background-color: white;
+    color: black;
+    box-shadow: .2px .2px 20px #242424;
+    padding: 10px;
+    margin-bottom: 200px;
+  }
+
+  .page-div-grey {
+    background-color: white;
+    color: white;  
+    padding: 10px;
+    margin: 30px;
+  }
+
+  
+  
 
   @media screen and (min-width: 320px) {
     .main-1 {
-      height: 600px;
+      height: 700px;
       display: flex;
       align-items: center;
-      margin-top: 0px;
-      margin-bottom: 0px;
+  
     }
     
     .main-2  {
-      height: 500px;
+      height: 800px;
       display: flex;
       align-items: center;
-      margin-top: 0px;
-      margin-bottom: 0px;
+
     }
+    .main-3  {
+      height: 800px;
+      display: flex;
+      align-items: center;
   
+    }
     .main-1-section-2 {
      height:500px;
   }
@@ -164,13 +192,32 @@ body {
     width:80%;
 
   }
-  
+
+
     
   }
   
   
-  @media screen and (min-width: 760px) {
+  @media screen and (min-width: 768px) {
+    .main-1 {
+      height: 4200px;
+      display: flex;
+      align-items: center;
   
+    }
+    
+    .main-2  {
+      height: 600px;
+      display: flex;
+      align-items: center;
+
+    }
+    .main-3  {
+      height: 600px;
+      display: flex;
+      align-items: center;
+  
+    }
     .main-1,
     .main-2,
     .main-3 {
@@ -186,21 +233,21 @@ body {
         background-image: asset-url("self01.jpg");
         border-radius: 50%;
         width:300px;
-        height:200px;
+        height:300px;
       }
   
   }
   
   @media screen and (min-width: 1440px) {
   
-    .main-1,
-    .main-2,
-    .main-3 {
-      height: 250px;
-      display: flex;
-      align-items: center;
+    // .main-1,
+    // .main-2,
+    // .main-3 {
+    //   height: 250px;
+    //   display: flex;
+    //   align-items: center;
     
-    }
+    // }
   
     .main-1-section-2,
     .main-2-section-1,
