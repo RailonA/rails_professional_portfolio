@@ -1,0 +1,42 @@
+
+
+.page-row-white {
+    background-color: white;
+    color: black;
+    box-shadow: .2px .2px 20px white;
+    padding: 20px;
+  }
+
+  .page-row-grey {
+    background-color: #242424;
+    color: white;  
+    padding: 20px;
+  }
+
+  .page-div-white {
+    background-color: white;
+    color: black;
+    box-shadow: .2px .2px 20px #242424;
+    padding: 10px;
+    margin-bottom: 200px;
+    border-radius: 5%;
+  }
+
+  .page-div-grey {
+    background-color: white;
+    color: white;  
+    padding: 10px;
+    margin: 30px;
+    border-radius: 5%;
+  }
+
+
+  .self-img {
+    background-image: asset-url("self01.jpg");
+    border-radius: 5%;
+    height:200px;
+    width:200px;
+    box-shadow: .2px .2px 20px #fc3903;
+    background-size: 100% 100%;
+  }
+
