@@ -1,31 +1,32 @@
 
 
-.page-row-white {
+  .about_page-row-white {
     background-color: white;
     color: black;
     box-shadow: .2px .2px 20px white;
     padding: 20px;
   }
 
-  .page-row-grey {
+  .about_page-row-grey {
     background-color: #242424;
     color: white;  
     padding: 20px;
   }
 
-  .page-div-white {
+  .about_page-div-white {
     background-color: white;
     color: black;
     box-shadow: .2px .2px 20px #242424;
-    padding: 10px;
-    margin-bottom: 200px;
+    padding: 30px;
+    margin: 30px;
     border-radius: 5%;
   }
 
-  .page-div-grey {
-    background-color: white;
+  .about_page-div-grey {
+    background-color: #242424;
     color: white;  
-    padding: 10px;
+    box-shadow: .2px .2px 20px white;
+    padding: 30px;
     margin: 30px;
     border-radius: 5%;
   }
@@ -40,3 +41,8 @@
     background-size: 100% 100%;
   }
 
+  .about_page-row-grey h3 {
+   text-decoration: underline;
+   font-weight: bold;
+   margin: 20px;
+  }
