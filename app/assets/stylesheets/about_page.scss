@@ -46,3 +46,48 @@
    font-weight: bold;
    margin: 20px;
   }
+
+  .facebook-self-img {
+    background-image: asset-url("art14.jpg");
+    border-radius: 5%;
+    height:200px;
+    width:200px;
+    box-shadow: .2px .2px 20px #fc3903;
+    background-size: 100% 100%;
+  }
+
+  .instagram-self-img {
+    background-image: asset-url("art-17.jpg");
+    border-radius: 5%;
+    height:200px;
+    width:200px;
+    box-shadow: .2px .2px 20px #fc3903;
+    background-size: 100% 100%;
+  }
+
+  .twitter-self-img {
+    background-image: asset-url("self-twitter.jpg");
+    border-radius: 5%;
+    height:200px;
+    width:200px;
+    box-shadow: .2px .2px 20px #fc3903;
+    background-size: 100% 100%;
+  }
+
+  .linkedin-self-img {
+    background-image: asset-url("self-link.jpg");
+    border-radius: 5%;
+    height:200px;
+    width:200px;
+    box-shadow: .2px .2px 20px #fc3903;
+    background-size: 100% 100%;
+  }
+
+  .github-self-img {
+    background-image: asset-url("self-github.jpg");
+    border-radius: 5%;
+    height:200px;
+    width:200px;
+    box-shadow: .2px .2px 20px #fc3903;
+    background-size: 100% 100%;
+  }
