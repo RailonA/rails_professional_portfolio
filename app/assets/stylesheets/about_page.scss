@@ -13,6 +13,18 @@
     padding: 20px;
   }
 
+  .about_page-row-grey h3 {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+  }
+
+  .about_page-row-white h3 {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+   }
+
   .about_page-div-white {
     background-color: white;
     color: black;
@@ -41,12 +53,7 @@
     background-size: 100% 100%;
   }
 
-  .about_page-row-grey h3 {
-   text-decoration: underline;
-   font-weight: bold;
-   margin: 20px;
-  }
-
+ 
   .facebook-self-img {
     background-image: asset-url("art14.jpg");
     border-radius: 5%;
@@ -91,3 +98,35 @@
     box-shadow: .2px .2px 20px #fc3903;
     background-size: 100% 100%;
   }
+
+  .social-network a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .social-network a:hover {
+    color: black;
+    font-weight: bold;
+  }
+
+  .social-network h3 {
+  color: black;
+  font-weight: bold;
+  }
+
+  .social-network  .about_page-row-white  h5 {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    }
+
+    .social-network  .about_page-row-grey h5 {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 10px;
+      }
+
+    
