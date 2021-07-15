@@ -45,7 +45,6 @@
 
 
   .self-img {
-    background-image: asset-url("self-art.jpg");
     border-radius: 10px;
     height:200px;
     width:200px;
@@ -130,4 +129,34 @@
       margin-left: 10px;
       }
 
-    
+      @media screen and (min-width: 360x) {
+        .self-img {
+          border-radius: 10px;
+          height:80%;
+          width:80%;
+          box-shadow: .2px .2px 20px #fc3903;
+          background-size: 100% 100%;
+        }
+      
+      }
+
+  @media screen and (min-width: 760x) {
+    .self-img {
+      border-radius: 10px;
+      height:80%;
+      width:80%;
+      box-shadow: .2px .2px 20px #fc3903;
+      background-size: 100% 100%;
+    }
+  
+  }
+  @media screen and (min-width: 991px) {
+    .self-img {
+      border-radius: 10px;
+      height:80%;
+      width:80%;
+      box-shadow: .2px .2px 20px #fc3903;
+      background-size: 100% 100%;
+    }
+  
+  }

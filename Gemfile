@@ -8,6 +8,12 @@ gem 'rubocop', '~>0.81.0'
 gem 'bootstrap', '~> 5.0.0.beta2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3'
+# User Hirb to enhance console views
+gem 'hirb', '~> 0.7.3'
+# Use cloudinary to host profile pics
+gem 'carrierwave'
+gem 'cloudinary'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
  gem 'sqlite3'
@@ -78,4 +84,5 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'rails_12factor', group: :production
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
