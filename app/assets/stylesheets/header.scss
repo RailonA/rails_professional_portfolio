@@ -1,12 +1,15 @@
 header {
-  background-image: asset-url("thomas-habr-6NmnrAJPq7M-unsplash.jpg");
+  background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), asset-url("thomas-habr-6NmnrAJPq7M-unsplash.jpg");
   background-size: 100% 170%;
+  padding: 0;
+  margin: 0;
 }
-
 
 header h1,
 header h4,
+header h5,
 header a,
+header .nav-link,
 .fas {
     color: #ff6600;
     font-weight: bold;
@@ -30,4 +33,72 @@ header a:hover {
 
 .fab-div {
   margin-right: 10%;
+}
+
+a:hover, a:focus, a:active, a:visited, a:link{
+  text-decoration: none;
+}
+
+@media screen and (min-width: 320px) {
+  .navbar-brand {
+    font-size: 10px;
+  }
+  .header-q {
+   width: 80%;
+  }
+
+}
+
+@media screen and (min-width: 375px) {
+  .header-q {
+   width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fab {
+    height: 20px;
+    display: flex;
+  }
+  
+  .header-q {
+   width: 420px;
+  }
+
+  .navbarSupportedContent {
+   width: 400px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .fab {
+    font-size: 20px;
+    display: flex;
+  }
+  
+  .header-q {
+   width: 720px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .fab {
+    font-size: 20px;
+    display: flex;
+  }
+  
+  .header-q {
+   width: 1400px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .fab {
+    font-size: 20px;
+    display: flex;
+  }
+  
+  .header-q {
+   width: 1400px;
+  }
 }
