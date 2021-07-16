@@ -3,6 +3,8 @@ header {
   background-size: 100% 170%;
   padding: 0;
   margin: 0;
+  box-shadow: .2px .2px 20px #242424;
+
 }
 
 header h1,
@@ -11,7 +13,7 @@ header h5,
 header a,
 header .nav-link,
 .fas {
-    color: #ff6600;
+    color: white;
     font-weight: bold;
 }
 
@@ -21,7 +23,7 @@ header a {
  }
 
 header a:hover {
-  color: #fc3903;
+  color: white;
   font-weight: 900;
 }
 
