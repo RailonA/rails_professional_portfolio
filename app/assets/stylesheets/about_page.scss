@@ -46,7 +46,7 @@
     border-radius: 10px;
     height:200px;
     width:200px;
-    box-shadow: .2px .2px 20px #fc3903;
+    box-shadow: .2px .2px 20px #242424;
     background-size: 100% 100%;
   }
 
@@ -55,7 +55,7 @@
     border-radius: 10px;
     height:200px;
     width:200px;
-    box-shadow: .2px .2px 20px #fc3903;
+    box-shadow: .2px .2px 20px #242424;
     background-size: 100% 100%;
   }
 
@@ -63,7 +63,7 @@
     border-radius: 10px;
     height:200px;
     width:200px;
-    box-shadow: .2px .2px 20px #fc3903;
+    box-shadow: .2px .2px 20px white;
     background-size: 100% 100%;
   }
 
@@ -71,7 +71,7 @@
     border-radius: 10px;
     height:200px;
     width:200px;
-    box-shadow: .2px .2px 20px #fc3903;
+    box-shadow: .2px .2px 20px #242424;
     background-size: 100% 100%;
   }
 
@@ -79,7 +79,7 @@
     border-radius: 10px;
     height:200px;
     width:200px;
-    box-shadow: .2px .2px 20px #fc3903;
+    box-shadow: .2px .2px 20px white;
     background-size: 100% 100%;
   }
 
@@ -87,7 +87,7 @@
     border-radius: 10px;
     height:200px;
     width:200px;
-    box-shadow: .2px .2px 20px #fc3903;
+    box-shadow: .2px .2px 20px #242424;
     background-size: 100% 100%;
   }
 
@@ -122,37 +122,66 @@
     margin-left: 10px;
   }
 
-  @media screen and (min-width: 360x) {
+  @media screen and (min-width: 360px) {
     .self-img {
       border-radius: 10px;
       height:80%;
       width:80%;
-      box-shadow: .2px .2px 20px #fc3903;
+      box-shadow: .2px .2px 20px #242424;
       background-size: 100% 100%;
     }
   }
 
-  @media screen and (min-width: 760x) {
+  @media screen and (min-width: 760px) {
     .self-img {
       border-radius: 10px;
       height:80%;
       width:80%;
-      box-shadow: .2px .2px 20px #fc3903;
+      box-shadow: .2px .2px 20px #242424;
       background-size: 100% 100%;
     }
+
+    .facebook-self-img,
+    .instagram-self-img {
+      box-shadow: .2px .2px 20px #242424;
+    }
+
+    .twitter-self-img,
+    .linkedin-self-img {
+      box-shadow: .2px .2px 20px white;
+    }
+
+    .github-self-img{
+      box-shadow: .2px .2px 20px #242424;
+    }
+
+
   }
 
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 990px) {
     .self-img {
       border-radius: 10px;
       height:80%;
       width:80%;
-      box-shadow: .2px .2px 20px #fc3903;
+      box-shadow: .2px .2px 20px #242424;
       background-size: 100% 100%;
     }
+    
     .aboutMe-S-One {
       height: 250px;
     }
+
+    .facebook-self-img,
+    .twitter-self-img,
+    .instagram-self-img {
+      box-shadow: .2px .2px 20px #242424;
+    }
+
+    .linkedin-self-img,
+    .github-self-img {
+      box-shadow: .2px .2px 20px white;
+    }
+
   }
 
   @media screen and (min-width: 1400px) {
@@ -160,7 +189,7 @@
       border-radius: 10px;
       height: 250px;
       width: 250px;
-      box-shadow: .2px .2px 20px #fc3903;
+      box-shadow: .2px .2px 20px #242424;
       background-size: 100% 100%;
     }
     .aboutMe-S-One {

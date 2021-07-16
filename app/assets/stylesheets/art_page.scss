@@ -6,7 +6,7 @@
 
   body img {
     margin: 20px;
-    box-shadow: .2px .2px 20px #fc3903;
+    // box-shadow: .2px .2px 20px #fc3903;
     border-radius: 10px;
 
   }
@@ -22,10 +22,19 @@
     margin: 0;
   }
 
+  .page-row-white img {
+    box-shadow: .2px .2px 20px #242424;
+
+  }
+
   .page-row-grey {
     background-color: #242424;
     padding: 20px;
     margin: 0;
+  }
+
+  .page-row-grey img {
+    box-shadow: .2px .2px 20px white;
   }
 
   .page-div-white {
