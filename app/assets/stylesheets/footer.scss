@@ -11,8 +11,9 @@ footer .nav-link {
     font-weight: bold;
 }
 
-footer a:hover {
-    color: white;
+footer a:hover,
+.fab:hover {
+    color: #0066cc;
     font-weight: 900;
     font-size: 20px;
   }

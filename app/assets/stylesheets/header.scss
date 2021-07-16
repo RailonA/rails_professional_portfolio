@@ -22,8 +22,9 @@ header a {
   font-weight: 300px ;
  }
 
-header a:hover {
-  color: white;
+header a:hover, 
+.fab:hover {
+  color: #0066cc;
   font-weight: 900;
 }
 
