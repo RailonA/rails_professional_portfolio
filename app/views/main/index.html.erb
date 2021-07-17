@@ -1,5 +1,5 @@
 <main class="d-flex">
-<div class=" col d-lg-none ">
+<div class=" col flex-sm-column d-md-column d-lg-none ">
   <div class="main-1 flex-column  page-row-white mb-3">          
       <div class="col col-md-4">
           <p class="d-flex justify-content-center">
@@ -29,7 +29,7 @@
         </p>
     </div>
 
-    <div class= "flex-xs-column flex-sm-column d-md-none d-xl-none ">
+    <div class= "flex-xs-column flex-sm-column d-md-none">
 
       <h3 class="project-section ">Projects</h3>
 
@@ -39,6 +39,9 @@
         </div>
         <a href="https://github.com/RailonA/rpg-plane-game">
             <p>Title: RPG Plane Game</p>
+        </a>
+        <a href="https://railona.github.io/rpg-plane-game/">
+          <p>Live Link</p>
         </a>
         <p>Discription:</p>
         <p>This project is a capstone project required by Microverse, after completing the javascript curriculum. This project is a 2D Game built-in Javascript and Phaser-3.</p>
@@ -51,6 +54,9 @@
         <a href="https://github.com/RailonA/weatherApp">
             <p>Title: Weather App</p>
         </a>
+       <a href="https://railona.github.io/weatherApp/">
+          <p>Live Link</p>
+        </a>
         <p>Discription:</p>
         <p>This project is part of Javascript Module with the aim of building an advanced Weather App that displays details about the weather of a typed city-town.</p>
       </div>
@@ -61,6 +67,9 @@
         </div>
         <a href="https://github.com/RailonA/restaurentPage">
           <p>Title: Restaurent Page</p>
+        </a>
+       <a href="https://railona.github.io/restaurentPage/">
+          <p>Live Link</p>
         </a>
         <p>Discription:</p>
         <p>A single-page app built with JavaScript that uses a restaurant page template.</p>
@@ -73,12 +82,79 @@
         <a href="https://github.com/RailonA/Twitter-redesign">
           <p>Title: Twitter Redesign</p>
         </a>
+       <a href="https://mytwitterdesign.herokuapp.com/login">
+          <p>Live Link</p>
+        </a>
         <p>Discription:</p>
         <p>You will be able to sign in, sign up at the home page, post thoughts/opinions, only the users who sign in can see and create an opinion, if you opt to sign out, then you won’t be able to see the opinions at all. You can upload your profile picture and cover photo. You can follow other users and see their opinions directly on your home page.</p>
       </div>
 
     </div>
 
+    <div class= "d-none d-md-block flex-md-column col-12">
+      <h3 class="project-section ">Projects</h3>
+
+        <div class= "d-flex justify-content-center col-12">
+          <div class="project_1 col-sm-12 col-md-5 col-lg-5">
+            <div class="d-flex justify-content-center col">
+                <%= cl_image_tag( "planeGame_dwvwyl.jpg", :class=> " d-flex justify-content-center project_1_img  col col-md-4")  %>
+            </div>
+            <a href="https://github.com/RailonA/rpg-plane-game">
+              <p>Title: RPG Plane Game</p>
+            </a>
+            <a href="https://railona.github.io/rpg-plane-game/">
+              <p>Live Link</p>
+            </a>
+            <p>Discription:</p>
+            <p> This project is a capstone project required by Microverse, after completing the javascript curriculum. This project is a 2D Game built-in Javascript and Phaser 3.</p>
+          </div>
+
+          <div class="project_2 col-sm-12 col-md-5 col-lg-5">
+            <div class="d-flex justify-content-center col">
+              <%= cl_image_tag( "weatherApp_ry3a5o.png", :class=> " d-flex justify-content-center col project_2_img col-md-4")  %>
+            </div>
+            <a href="https://github.com/RailonA/weatherApp">
+              <p>Title: Weather App</p>
+            </a>
+            <a href="https://railona.github.io/weatherApp/">
+                <p>Live Link</p>
+              </a>
+            <p>Discription:</p>
+            <p>This project is part of Javascript Module with the aim of building an advanced Weather App that displays details about the weather of a typed city-town.</p>
+          </div>
+        </div>
+
+        <div class= "d-flex justify-content-center col-12">
+          <div class="project_3 col-sm-12 col-md-5 col-lg-5">
+            <div class="d-flex justify-content-center col">
+              <%= cl_image_tag( "restaurentPage_jn3rps.png", :class=> " d-flex justify-content-center col project_4_img col-md-4")  %>
+            </div>
+            <a href="https://github.com/RailonA/restaurentPage">
+              <p>Title: Restaurent Page</p>
+            </a>
+            <a href="https://railona.github.io/restaurentPage/">
+               <p>Live Link</p>
+            </a>
+            <p>Discription:</p>
+            <p>A single-page app built with JavaScript that uses a restaurant page template.</p>
+          </div>
+          
+          <div class="project_4 col-sm-12 col-md-5 col-lg-5">
+            <div class="d-flex justify-content-center col">
+              <%= cl_image_tag( "twitterRedesign_xuqjha.png", :class=> " d-flex justify-content-center col project_4_img col-md-4")  %>
+            </div>
+            <a href="https://github.com/RailonA/Twitter-redesign">
+              <p>Title: Twitter Redesign</p>
+            </a>
+            <a href="https://mytwitterdesign.herokuapp.com/login">
+                <p>Live Link</p>
+              </a>
+            <p>Discription:</p>
+            <p>You will be able to sign in, sign up at the home page, post thoughts/opinions, only the users who sign in can see and create an opinion, if you opt to sign out, then you won’t be able to see the opinions at all. You can upload your profile picture and cover photo. You can follow other users and see their opinions directly on your home page.</p>
+          </div>
+        </div>
+
+    </div> 
   </div>
 
   <div class=" main-3 flex-column page-row-white mb-3">
@@ -100,6 +176,7 @@
   </div>  
 
 </div>
+
 
 <div class=" d-none d-lg-flex row" >
   <div class="main-1 justify-content-center page-row-white mb-3">          
@@ -144,6 +221,9 @@
             <a href="https://github.com/RailonA/rpg-plane-game">
               <p>Title: RPG Plane Game</p>
             </a>
+            <a href="https://railona.github.io/rpg-plane-game/">
+              <p>Live Link</p>
+            </a>
             <p>Discription:</p>
             <p> This project is a capstone project required by Microverse, after completing the javascript curriculum. This project is a 2D Game built-in Javascript and Phaser 3.</p>
           </div>
@@ -154,6 +234,9 @@
             </div>
             <a href="https://github.com/RailonA/weatherApp">
               <p>Title: Weather App</p>
+            </a>
+            <a href="https://railona.github.io/weatherApp/">
+              <p>Live Link</p>
             </a>
             <p>Discription:</p>
             <p>This project is part of Javascript Module with the aim of building an advanced Weather App that displays details about the weather of a typed city-town.</p>
@@ -168,6 +251,9 @@
             <a href="https://github.com/RailonA/restaurentPage">
               <p>Title: Restaurent Page</p>
             </a>
+            <a href="https://railona.github.io/restaurentPage/">
+                <p>Live Link</p>
+            </a>
             <p>Discription:</p>
             <p>A single-page app built with JavaScript that uses a restaurant page template.</p>
           </div>
@@ -178,6 +264,9 @@
             </div>
             <a href="https://github.com/RailonA/Twitter-redesign">
               <p>Title: Twitter Redesign</p>
+            </a>
+            <a href="https://mytwitterdesign.herokuapp.com/login">
+              <p>Live Link</p>
             </a>
             <p>Discription:</p>
             <p>You will be able to sign in, sign up at the home page, post thoughts/opinions, only the users who sign in can see and create an opinion, if you opt to sign out, then you won’t be able to see the opinions at all. You can upload your profile picture and cover photo. You can follow other users and see their opinions directly on your home page.</p>
