@@ -1,0 +1,12 @@
+<div>
+<%= form_with model: @user do |form| %>
+<%= form.label "Full name:" %>
+<%= form.text_field :fullname %><br><br>
+<%= form.label "E-mial:" %>
+<%= form.text_field :email %><br><br>
+<%= form.label "Information:" %>
+<%= form.text_area :body %><br><br>
+
+<%= form.submit %>
+<% end %>
+</div>
