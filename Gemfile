@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+gem 'dotenv-rails', require: 'dotenv/rails-now'
 
 ruby '2.7.2'
 
@@ -15,6 +16,8 @@ gem 'hirb', '~> 0.7.3'
 gem 'carrierwave'
 gem 'cloudinary'
 gem "figaro"
+# MAILER
+gem 'sendgrid-ruby'
 
 # Use sqlite3 as the database for Active Record
 group :development do

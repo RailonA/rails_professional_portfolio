@@ -113,6 +113,10 @@ GEM
       warden (~> 1.2.3)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.7.6)
+    dotenv-rails (2.7.6)
+      dotenv (= 2.7.6)
+      railties (>= 3.2)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -258,6 +262,7 @@ GEM
     ruby-progressbar (1.11.0)
     ruby-vips (2.1.2)
       ffi (~> 1.12)
+    ruby_http_client (3.5.2)
     rubyzip (2.3.2)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -273,6 +278,8 @@ GEM
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
     semantic_range (3.0.0)
+    sendgrid-ruby (6.4.0)
+      ruby_http_client (~> 3.4)
     shellany (0.0.1)
     simple_form (5.1.0)
       actionpack (>= 5.2)
@@ -334,6 +341,7 @@ DEPENDENCIES
   carrierwave
   cloudinary
   devise (~> 4.7, >= 4.7.3)
+  dotenv-rails
   figaro
   gravatar_image_tag (~> 1.2)
   guard (~> 2.16, >= 2.16.2)
@@ -349,6 +357,7 @@ DEPENDENCIES
   rubocop (~> 0.81.0)
   sass-rails (>= 6)
   selenium-webdriver
+  sendgrid-ruby
   simple_form (~> 5.1)
   spring
   sqlite3
