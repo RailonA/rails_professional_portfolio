@@ -18,8 +18,8 @@ class UsersController < ApplicationController
   respond_to do |format|
     if @user.save
       # Tell the UserMailer to send a welcome email after save
-      UserMailer.with(user: @user).welcome_email.deliver_later
-      # UserMailer.with(user: @user).welcome_email.deliver_now
+      # UserMailer.with(user: @user).welcome_email.deliver_later
+      UserMailer.with(user: @user).welcome_email.deliver_now
       # UserMailer.welcome_email(@user).deliver_now
 
       format.html { redirect_to root_path, notice: 'Message sent!'}
