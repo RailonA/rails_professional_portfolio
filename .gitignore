@@ -42,3 +42,4 @@ yarn-debug.log*
 
 
 cloudinary.yml
+/config/local_env.yml

@@ -3,8 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.2'
 
+# rubocop
 gem 'rubocop', '~>0.81.0'
-
+# bootstrap
 gem 'bootstrap', '~> 5.0.0.beta2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3'
