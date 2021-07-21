@@ -43,3 +43,7 @@ yarn-debug.log*
 
 cloudinary.yml
 /config/local_env.yml
+
+# Ignore application configuration
+/config/application.yml
+application.yml

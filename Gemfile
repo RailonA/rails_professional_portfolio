@@ -14,6 +14,7 @@ gem 'hirb', '~> 0.7.3'
 # Use cloudinary to host profile pics
 gem 'carrierwave'
 gem 'cloudinary'
+gem "figaro"
 
 # Use sqlite3 as the database for Active Record
 group :development do
