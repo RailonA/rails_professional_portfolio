@@ -5,12 +5,22 @@ body {
   .main-1,
   .main-2,
   .main-3 {
-    height: 500px;
     display: flex;
     align-items: center;
     padding: 20px;
   }
   
+  .line {
+    border-top:3px solid black ;
+    border-bottom:3px solid black ;
+    margin: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
+  }
+
+  .logo-p {
+    margin: 0 10px;
+  }
+
   .main-1-section-1,
   .main-1-section-2,
   .main-2-section-1,
@@ -119,6 +129,7 @@ body {
     box-shadow: .2px .2px 20px #242424;
     padding: 10px;
     margin-bottom: 200px;
+    border-radius: 10px;
   }
 
   .page-div-grey {
@@ -130,98 +141,102 @@ body {
   
   @media screen and (min-width: 320px) {
     .main-1 {
-      height: 900px;
+      height: 950px;
       display: flex;
       align-items: center;
     }
     
     .main-2  {
-      height: 3300px;
+      height: 2300px;
       display: flex;
       align-items: center;
     }
 
     .main-3  {
-      height: 800px;
+      height: 600px;
       display: flex;
       align-items: center;
     }
   
-  .main-1-section-1 {
-    height:600px;
-  }
+    .logo-p {
+      font-size: 10px;
+      font-weight: bold;
+    }
 
-  .main-1-section-2 {
-    border-radius: 50%;
-    width: 150px;
-    height:250px;
-  }
-  
-  .main-2-section-1 {
-    border-radius: 10px;
-    width: 80%;
-    height: 80%
-  }
-  
-  .main-3-section-2 {
-    border-radius: 10px;
-    width: 80%;
-  }
+    .main-1-section-1 {
+      height:600px;
+    }
 
-  .project-section {
-    margin: 20px;
-  }
+    .main-1-section-2 {
+      border-radius: 50%;
+      width: 150px;
+      height:250px;
+    }
+    
+    .main-2-section-1 {
+      border-radius: 10px;
+      width: 80%;
+      height: 80%
+    }
+    
+    .main-3-section-2 {
+      border-radius: 10px;
+      width: 80%;
+    }
 
-  .project_1,
-  .project_2,
-  .project_3,
-  .project_4 {
-    box-shadow: .2px .2px 20px white;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 30px 0 10px 0;
-  }
+    .project-section {
+      margin: 20px;
+    }
+
+    .project_1,
+    .project_2,
+    .project_3,
+    .project_4 {
+      box-shadow: .2px .2px 20px white;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 30px 0 10px 0;
+    }
 
 
-  .project_1 a,
-  .project_2 a,
-  .project_3 a,
-  .project_4 a {
-    color: white;
-  }
+    .project_1 a,
+    .project_2 a,
+    .project_3 a,
+    .project_4 a {
+      color: white;
+    }
 
-  .project_1 a:hover,
-  .project_2 a:hover,
-  .project_3 a:hover,
-  .project_4 a:hover {
-    color: white;
-  }
+    .project_1 a:hover,
+    .project_2 a:hover,
+    .project_3 a:hover,
+    .project_4 a:hover {
+      color: white;
+    }
 
-  .project_1_img,
-  .project_2_img,
-  .project_3_img,
-  .project_4_img {
-   width: 200px;
-   height: 200px;
-  }
+    .project_1_img,
+    .project_2_img,
+    .project_3_img,
+    .project_4_img {
+    width: 200px;
+    height: 200px;
+    }
     
   }
   
   @media screen and (min-width: 370px) {
     .main-1 {
-      height: 850px;
+      height: 950px;
       display: flex;
       align-items: center;
     }
     
     .main-2  {
-      height: 3200px;
+      height: 2190px;
       display: flex;
       align-items: center;
     }
 
     .main-3  {
-      height: 850px;
       display: flex;
       align-items: center;
     }
@@ -257,8 +272,15 @@ body {
 }
   
   @media screen and (min-width: 580px) {
+    .main-1  {
+      height: 600px;
+    }
+
+    .main-2  {
+      height: 2020px;
+    }
+
     .main-3  {
-      height: 900px;
       display: flex;
       align-items: center;
     }
@@ -271,22 +293,27 @@ body {
 
   @media screen and (min-width: 760px) {
     .main-1 {
-      height: 700px;
+      height: 600px;
       display: flex;
       align-items: center;
     }
     
     .main-2  {
-      height: 2400px;
+      height: 1220px;
       display: flex;
       flex-direction: row;
       align-items: center;
     }
 
     .main-3  {
-      height: 700px;
       display: flex;
       align-items: center;
+    }
+
+    .logo-p {
+      font-size: 20px;
+      font-weight: bold;
+      margin-right: 20px;
     }
  
     .main-1-section-1,
@@ -326,7 +353,6 @@ body {
   @media screen and (min-width: 991px) {
     .main-1,
     .main-3 {
-      height: 400px;
       display: flex;
       align-items: center;
     }
@@ -380,5 +406,34 @@ body {
       width:80%;
       height:300px;
       box-shadow: .2px .2px 20px #242424;
+    }
+  }
+
+
+  @media screen and (min-width: 1000px) {
+    .main-1 {
+      height: 650px;
+    }  
+    
+    .main-2 {
+      height: 1200px;
+    }
+    
+    .main-3 {
+      height: 600px;
+    }
+  }
+
+  @media screen and (min-width: 1300px) {
+    .main-1 {
+      height: 650px;
+    }  
+    
+    .main-2 {
+      height: 1100px;
+    }
+    
+    .main-3 {
+      height: 600px;
     }
   }

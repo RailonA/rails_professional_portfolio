@@ -1,38 +1,67 @@
-<main class="d-flex">
-<div class=" col flex-sm-column d-md-column d-lg-none ">
-  <div class="main-1 flex-column  page-row-white mb-3">          
-      <div class="col col-md-4">
-          <p class="d-flex justify-content-center">
-              <%= cl_image_tag( "self-link_pbmtnj.jpg", :class=> " d-flex justify-content-center main-1-section-2 col col-md-4")  %>
-          </p>
+
+<main class=" d-flex">
+
+<div class="col-12  flex-sm-column  ">
+  
+    <div class="main-1 flex-column   mb-3">          
+      <div class="main-1-section-1 col ">
+          <h1 class="d-flex justify-content-center col">Hey There.</h1>
+          <h1 class="d-flex justify-content-center col">I'm Railon</h1>
+          <h4 class="d-flex justify-content-center col">I'm a Software Developer</h4>
+        <p class="d-flex justify-content-center  text-center col  p-4">
+          I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, 
+          don’t hestiate to contact me.
+        </p>
+
+        <div class=" text-dark d-flex justify-content-center ">
+          <p class="logo-p align-self-center">Lets Connect</p>
+          <a href="https://www.facebook.com/RailonA.ArtStudio">
+          <i class="fab fa-facebook-f text-dark"></i>
+          </a>
+          <a href="https://www.instagram.com/railon.a/">
+            <i class="fab fa-instagram text-dark"></i>
+          </a>
+          <a href="https://twitter.com/RailonAcosta">
+          <i class="fab fa-twitter text-dark"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/railon-acosta/">
+            <i class="fab fa-linkedin-in text-dark" ></i>
+          </a>
+          <a href="https://github.com/RailonA">
+            <i class="fab fa-github text-dark"></i>
+          </a>
+        </div> 
+          <div class="line flex-xs-column d-sm-flex justify-content-center col-12">
+              <div  class="col-xs-12 col-md-4 text-center justify-content-center m-3">
+                <h3>Language</h3>
+                <p>JavaScript</p>
+                <p>Ruby</p>
+                <p>Html</p>
+                <p>Css</p>
+              </div>
+              <div class="col-xs-12 col-md-4 text-center justify-content-center m-3">
+                <h3>Framework</h3>
+                <p>Bootstrap</p>
+                <p>Ruby on Rails</p>
+                <p>RSpec</p>
+                <p>CapyBara</p>
+              </div>
+              <div class="col-xs-12 col-md-4 text-center justify-content-center m-3">
+                <h3>Skills</h3>
+                <p>Codekit</p>
+                <p>Github</p>
+                <p>Codepen</p>
+                <p>Gitlab</p>
+              </div>
+           </div>
       </div>
-      <div class="main-1-section-1 col page-div-white">
-        <a href="/about">
-          <h2 class="d-flex justify-content-center col">About Me</h2>
-        </a>
-        <p class="d-flex justify-content-center  text-center col  p-4">Hello and welcome to my portfolio page. I will be continuously updating the page as I work on new materials. I am a student of the tech world such as software development, I have always been very big in art so I will have a section where will display my work, and I am also a huge animal activist. I do plan on starting a blog so please stay tuned. </p>
-      </div>
-  </div> 
+     </div>
 
   <div class="main-2 flex-column page-row-grey ">
-    <div class="justify-content-center col" onclick="location.href='https://github.com/RailonA/rpg-plane-game';" style="cursor: pointer;" >
-        <%= cl_image_tag( "planeGame_dwvwyl.jpg", :class=> " d-flex justify-content-center main-2-section-1 col col-md-4")  %>
-    </div>
-    <div class="main-2-section-2 col page-div-grey mb-4">
-        <a href="https://github.com/RailonA/rpg-plane-game">
-      <h2 class="d-flex justify-content-center">GitHub</h2>
-      </a>
-        <p class="d-flex justify-content-center text-center  p-4"> I’m currently a student at Microverse which is a remote full-stack development school.
-         I'm currently learning HTML&CSS
-         Then Ruby, Ruby on Rails, JavaScript, React/Redux
-         I have a strong background in the Credit Card processing business as a tech support consultant.
-
-        </p>
-    </div>
 
     <div class= "flex-xs-column flex-sm-column d-md-none">
 
-      <h3 class="project-section ">Projects</h3>
+      <h3 class="project-section ">My Recent Projects</h3>
 
       <div class="project_1 col-sm-12 col-md-5">
         <div class="d-flex justify-content-center col">
@@ -93,7 +122,7 @@
     </div>
 
     <div class= "d-none d-md-block flex-md-column col-12">
-      <h3 class="project-section ">Projects</h3>
+      <h3 class="project-section ">My Recent Projects</h3>
 
         <div class= "d-flex justify-content-center col-12">
           <div class="project_1 col-sm-12 col-md-5 col-lg-5">
@@ -157,151 +186,18 @@
 
     </div> 
 
-      <%= render  partial: "users/form" %>
-
   </div>
 
-  <div class=" main-3 flex-column page-row-white mb-3">
-    <div class="col">
-      <p class="d-flex justify-content-center">
-          <%= cl_image_tag( "self-art_hetmbx.jpg", :class=> " d-flex justify-content-center main-3-section-2 col col-md-4")  %>
-      </p>
-    </div>
-    <div class="main-3-section-1 col page-div-white">
-      <a href="./art">
-        <h2 class="d-flex justify-content-center">Art</h2>
-      </a>
-      <p class="d-flex justify-content-center  text-center p-4">
-        I have always felt that art has been the way I can free my soul,
-       It has been my way to sheld myself as well as express myself. I have always loved animals, and I enjoy the simplicity of mother nature, and through art, I can travel the world while in the comfort of home.
-      </p>
-    </div>
-  </div>  
+  
+  <div class="main-3 d-flex justify-content-center">
+  <div>
+  <h3>About Me</h3>
+  <p></p>
+  </div>
+        <%= render  partial: "users/form" %>
+  </div>
+
 
 </div>
-
-
-<div class=" d-none d-lg-flex row" >
-  <div class="main-1 justify-content-center page-row-white mb-3">          
-    <div class="col-2 mr-5 col-4 ">
-        <%= cl_image_tag( "self-link_pbmtnj.jpg", :width=>200, :height=>200, :class=> " d-flex justify-content-center main-1-section-2 col col-md-4")  %>
-    </div>
-    <div class="main-1-section-1 col-6 ml-5 page-div-white">
-      <a class="nav-link" href="/about">
-        <h2 class="d-flex justify-content-center col">About Me</h2>
-      </a>
-      <p class="d-flex justify-content-center  text-center col  p-4">Hello and welcome to my portfolio page. I will be continuously updating the page as I work on new materials. I am a student of the tech world such as software development, I have always been very big in art so I will have a section where will display my work, and I am also a huge animal activist. I do plan on starting a blog so please stay tuned. </p>
-    </div>
-  </div> 
-
-  <div class="main-2 flex-column justify-content-center page-row-grey mb-3">
-   
-    <div class="col-12 d-flex justify-content-center">
-      <div class="main-2-section-2 col-6 page-div-grey">
-        <a href="https://github.com/RailonA?tab=repositories">
-        <h2 class="d-flex justify-content-center">GitHub</h2>
-        </a>
-        <p class="d-flex justify-content-center text-center  p-4">
-          I’m currently a student at Microverse which is a remote full-stack development school.
-         I'm currently learning HTML&CSS
-         Then Ruby, Ruby on Rails, JavaScript, React/Redux
-         I have a strong background in the Credit Card processing business as a tech support consultant.
-        </p>
-      </div>
-      <div class=" justify-content-center "  onclick="location.href='https://github.com/RailonA/rpg-plane-game';" style="cursor: pointer;" >
-        <%= cl_image_tag( "planeGame_dwvwyl.jpg", :class=> " d-flex justify-content-center main-2-section-1 col col-4")  %>
-      </div>
-    </div>
-
-    <div class= "flex-d-column col-12">
-      <h3 class="project-section ">Projects</h3>
-
-        <div class= "d-flex justify-content-center col-12">
-          <div class="project_1 col-sm-12 col-md-5 col-lg-5">
-            <div class="d-flex justify-content-center col">
-                <%= cl_image_tag( "planeGame_dwvwyl.jpg", :class=> " d-flex justify-content-center project_1_img  col col-md-4")  %>
-            </div>
-            <a href="https://github.com/RailonA/rpg-plane-game">
-              <p>Title: RPG Plane Game</p>
-            </a>
-            <a href="https://railona.github.io/rpg-plane-game/">
-              <p>Live Link</p>
-            </a>
-            <p>Discription:</p>
-            <p> This project is a capstone project required by Microverse, after completing the javascript curriculum. This project is a 2D Game built-in Javascript and Phaser 3.</p>
-          </div>
-
-          <div class="project_2 col-sm-12 col-md-5 col-lg-5">
-            <div class="d-flex justify-content-center col">
-              <%= cl_image_tag( "weatherApp_ry3a5o.png", :class=> " d-flex justify-content-center col project_2_img col-md-4")  %>
-            </div>
-            <a href="https://github.com/RailonA/weatherApp">
-              <p>Title: Weather App</p>
-            </a>
-            <a href="https://railona.github.io/weatherApp/">
-              <p>Live Link</p>
-            </a>
-            <p>Discription:</p>
-            <p>This project is part of Javascript Module with the aim of building an advanced Weather App that displays details about the weather of a typed city-town.</p>
-          </div>
-        </div>
-
-        <div class= "d-flex justify-content-center col-12">
-          <div class="project_3 col-sm-12 col-md-5 col-lg-5">
-            <div class="d-flex justify-content-center col">
-              <%= cl_image_tag( "restaurentPage_jn3rps.png", :class=> " d-flex justify-content-center col project_4_img col-md-4")  %>
-            </div>
-            <a href="https://github.com/RailonA/restaurentPage">
-              <p>Title: Restaurent Page</p>
-            </a>
-            <a href="https://railona.github.io/restaurentPage/">
-                <p>Live Link</p>
-            </a>
-            <p>Discription:</p>
-            <p>A single-page app built with JavaScript that uses a restaurant page template.</p>
-          </div>
-          
-          <div class="project_4 col-sm-12 col-md-5 col-lg-5">
-            <div class="d-flex justify-content-center col">
-              <%= cl_image_tag( "twitterRedesign_xuqjha.png", :class=> " d-flex justify-content-center col project_4_img col-md-4")  %>
-            </div>
-            <a href="https://github.com/RailonA/Twitter-redesign">
-              <p>Title: Twitter Redesign</p>
-            </a>
-            <a href="https://mytwitterdesign.herokuapp.com/login">
-              <p>Live Link</p>
-            </a>
-            <p>Discription:</p>
-            <p>You will be able to sign in, sign up at the home page, post thoughts/opinions, only the users who sign in can see and create an opinion, if you opt to sign out, then you won’t be able to see the opinions at all. You can upload your profile picture and cover photo. You can follow other users and see their opinions directly on your home page.</p>
-          </div>
-        </div>
-
-    </div> 
-
-      <%= render  partial: "users/form" %>
-
-  </div> 
-
-
-  <div class="main-3 justify-content-center page-row-white mb-3">
-    <div class="col-4">
-      <p class="d-flex justify-content-center">
-          <%= cl_image_tag( "self-art_hetmbx.jpg", :class=> " d-flex justify-content-center main-3-section-2 col col-md-4")  %>
-      </p>
-    </div>
-    <div class="main-3-section-1 col-6 page-div-white">
-      <a class="nav-link" href="/art">
-        <h2 class="d-flex justify-content-center">Art</h2>
-      </a>
-      <p class="d-flex justify-content-center  text-center  p-4">
-       I have always felt that art has been the way I can free my soul,
-       It has been my way to sheld myself as well as express myself. I have always loved animals, and I enjoy the simplicity of mother nature, and through art, I can travel the world while in the comfort of home.
-      </p>
-    </div>
-  </div>  
-</div>
-
-
-
 
 </main>
