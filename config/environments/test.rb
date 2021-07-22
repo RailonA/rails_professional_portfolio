@@ -58,7 +58,7 @@ Rails.application.configure do
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
 
-# ActionMailer Config
-# config.action_mailer.default_url_options = { :host => 'example.com' }
+ActionMailer Config
+config.action_mailer.default_url_options = { :host => 'https://mailthis.to/railonacosta@gmail.com' }
 
 end
