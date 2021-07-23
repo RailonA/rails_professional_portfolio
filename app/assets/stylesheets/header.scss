@@ -24,8 +24,12 @@ header a {
 
 header a:hover, 
 .fab:hover {
-  color: #0066cc;
+  color:transparent;
   font-weight: 900;
+}
+
+a:hover {
+  color:transparent;
 }
 
 .fab {
