@@ -4,6 +4,7 @@
     margin: 0;
   }
 
+
   body img {
     margin: 20px;
     border-radius: 10px;
@@ -46,4 +47,59 @@
     background-color: #242424;
     padding: 20px;
     margin: 0;
+  }
+
+  @media screen and (min-width: 320px) {
+    .main-3-Art {
+      height: 750px;
+    }
+
+    .self-artPic{
+      height: 200px;
+      width: 300px;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .main-3-Art {
+      height: 650px;
+    }
+
+    .self-artPic{
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+  @media screen and (min-width: 760px) {
+    .main-3-Art {
+      height: 650px;
+    }
+    
+    .self-artPic{
+      height: 300px;
+      width: 450px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .main-3-Art {
+      height: 650px;
+    }
+    
+    .self-artPic{
+      height: 300px;
+      width: 450px;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .main-3-Art {
+      height: 600px;
+    }
+
+    .self-artPic{
+      height: 300px;
+      width: 450px;
+    }
   }

@@ -25,13 +25,11 @@ body {
   .main-1-section-2,
   .main-2-section-1,
   .main-2-section-2,
-  .main-3-section-1,
-  .main-3-section-2 {
+  .main-3-section-1 {
     margin: 10px;  
   }
   
-  .main-1-section-2,
-  .main-3-section-2 {
+  .main-1-section-2 {
      width:400px;
      box-shadow: .2px .2px 20px #242424;
      background-size: 100% 100%;
@@ -85,11 +83,6 @@ body {
     border-radius: 10px;
     width: 80%;
     height: 80%
-  }
-  
-  .main-3-section-2 {
-    border-radius: 10px;
-
   }
 
   .page-row-white {
@@ -178,11 +171,6 @@ body {
       width: 80%;
       height: 80%
     }
-    
-    .main-3-section-2 {
-      border-radius: 10px;
-      width: 80%;
-    }
 
     .project-section {
       margin: 20px;
@@ -256,11 +244,6 @@ body {
     width: 80%;
     height: 80%
   }
-  
-  .main-3-section-2 {
-    border-radius: 10px;
-    width: 70%;
-  }
   .project_1_img,
   .project_2_img,
   .project_3_img,
@@ -283,11 +266,6 @@ body {
     .main-3  {
       display: flex;
       align-items: center;
-    }
-
-    .main-3-section-2 {
-      width:60%;
-      height:300px;
     }
   }
 
@@ -333,13 +311,6 @@ body {
          background-size: 100% 100%;
          width:500px;
       }
-  
-      .main-3-section-2 {
-        height:300px;
-        box-shadow: .2px .2px 20px #242424;
-        width:350px;
-        height:300px;
-      }
 
       .project_1,
       .project_2,
@@ -362,8 +333,7 @@ body {
     }
 
     .main-1-section-2,
-    .main-2-section-1,
-    .main-3-section-2 {
+    .main-2-section-1 {
        box-shadow: .2px .2px 20px white;
        background-size: 100% 100%;
        height: 200px;
@@ -401,12 +371,6 @@ body {
     }
     
     
-    .main-3-section-2 {
-      border-radius: 10px;
-      width:80%;
-      height:300px;
-      box-shadow: .2px .2px 20px #242424;
-    }
   }
 
 
