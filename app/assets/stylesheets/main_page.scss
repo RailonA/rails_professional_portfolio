@@ -20,7 +20,12 @@ body {
   .logo-p {
     margin: 0 10px;
   }
-
+  a:hover, 
+  .fab:hover {
+    color: #0066cc;
+    background-color: transparent;
+    font-weight: 900;
+  }
   .main-1-section-1,
   .main-1-section-2,
   .main-2-section-1,
