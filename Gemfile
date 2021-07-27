@@ -24,6 +24,14 @@ group :development do
  gem 'sqlite3'
 end
 
+gem "jekyll"
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+end
+
+
 group :production, :test do
   gem 'pg'
 end
